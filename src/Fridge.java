@@ -1,8 +1,10 @@
-import lombok.Setter;
-import lombok.Getter;
+import lombok.*;
 @Setter
 @Getter
-public class Main {
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Fridge {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
