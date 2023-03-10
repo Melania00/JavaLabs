@@ -5,32 +5,30 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class Fridge {
+public class Fridge{
     private String brand;
     private String model;
     private int capacityInLitres;
     private boolean isDefrosting;
     private String energyEfficiencyClass;
 
+    public static Fridge instance;
 
-    public void turnOnDefrosting()
-    {
-        isDefrosting = true;
-    }
-    public void turnOffDefrosting()
-    {
-        isDefrosting = false;
-    }
-    public void defrostStatus()
-    {
-        if(isDefrosting == true)
-        {
-            System. out. println("defrost is on");
+    public static Fridge getInstance() {
+        if (instance == null) {
+            return new Fridge();
         }
-        else
-        {
-            System. out. println("defrost is off");
-        }
-    }
 
+    public boolean turnOnDefrosting()
+    {
+        isDefrosting == true;
     }
+    public boolean turnOffDefrosting()
+    {
+        isDefrosting == false;
+    }
+    public void deleteModelInfo()
+    {
+        model == null;
+    }
+}
