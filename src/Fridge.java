@@ -45,6 +45,26 @@ public class Fridge{
             return new Fridge(brand, model, capacityInLitres, isDefrosting, energyEfficiencyClass);
         }
 
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setCapacity(double capacity) {
+        this.capacity = capacity;
+    }
+
+    public void setDefrosting(boolean isDefrosting) {
+        this.isDefrosting = isDefrosting;
+    }
+
+    public void setEnergyEfficiencyClass(char energyEfficiencyClass) {
+        this.energyEfficiencyClass = energyEfficiencyClass;
+    }
+
     public boolean turnOnDefrosting()
     {
         isDefrosting == true;
