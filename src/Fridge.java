@@ -53,8 +53,8 @@ public class Fridge{
         this.model = model;
     }
 
-    public void setCapacity(double capacity) {
-        this.capacity = capacity;
+    public void setCapacityInLitres(double capacityInLitres) {
+        this.capacityInLitres = capacityInLitres;
     }
 
     public void setDefrosting(boolean isDefrosting) {
