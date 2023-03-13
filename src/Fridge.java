@@ -1,5 +1,7 @@
 import lombok.*;
 
+import java.util.Arrays;
+
 @ToString
 @Setter
 @Getter
@@ -63,7 +65,7 @@ public class Fridge {
         model = null;
     }
 
-    public static void main (String[]args)
+    public static void main(String[]args)
     {
         Fridge[] fridge = new Fridge[4];
         fridge[0] = new Fridge(brand, model, capacityInLitres, isDefrosting, energyEfficiencyClass);
@@ -71,9 +73,6 @@ public class Fridge {
         fridge[2] = Fridge.getInstance();
         fridge[3] = Fridge.getInstance();
 
-        for (int i = 0; i < 4; i++)
-        {
-            System.out.println(fridge[i].toString());
-        }
+        Arrays.stream(fridge).map(i -> fridge[4].toString()).forEach(System.out::println);
     }
 }
