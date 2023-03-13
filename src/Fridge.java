@@ -1,16 +1,17 @@
 import lombok.*;
+
 @ToString
 @Setter
 @Getter
 
-public class Fridge{
+public class Fridge {
     private static String brand;
     private static String model;
     private static int capacityInLitres;
     private static boolean isDefrosting;
-    private static char energyEfficiencyClass;
+    private static String energyEfficiencyClass;
 
-    public Fridge(String brand, String model, int capacityInLitres, boolean isDefrosting, char energyEfficiencyClass) {
+    public Fridge(String brand, String model, int capacityInLitres, boolean isDefrosting, String energyEfficiencyClass) {
         this.brand = brand;
         this.model = model;
         this.capacityInLitres = capacityInLitres;
@@ -34,47 +35,45 @@ public class Fridge{
         return isDefrosting;
     }
 
-    public char getEnergyEfficiencyClass() {
+    public String getEnergyEfficiencyClass() {
         return energyEfficiencyClass;
     }
 
     public static Fridge instance;
 
-    public Fridge getInstance() {
+    public static Fridge getInstance() {
         if (instance == null) {
             return new Fridge(brand, model, capacityInLitres, isDefrosting, energyEfficiencyClass);
         }
-
-    public void setBrand(String brand) {
-        this.brand = brand;
+    return new Fridge(brand, model, capacityInLitres, isDefrosting, energyEfficiencyClass);
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public void setCapacityInLitres(double capacityInLitres) {
-        this.capacityInLitres = capacityInLitres;
-    }
-
-    public void setDefrosting(boolean isDefrosting) {
-        this.isDefrosting = isDefrosting;
-    }
-
-    public void setEnergyEfficiencyClass(char energyEfficiencyClass) {
-        this.energyEfficiencyClass = energyEfficiencyClass;
-    }
-
-    public boolean turnOnDefrosting()
+    public boolean turnOnDefrosting ()
     {
-        isDefrosting == true;
+        isDefrosting = true;
+        return true;
     }
-    public boolean turnOffDefrosting()
+    public boolean turnOffDefrosting ()
     {
-        isDefrosting == false;
+        isDefrosting = false;
+        return false;
     }
-    public void deleteModelInfo()
+    public void deleteModelInfo ()
     {
-        model == null;
+        model = null;
+    }
+
+    public static void main (String[]args)
+    {
+        Fridge[] fridge = new Fridge[4];
+        fridge[0] = new Fridge(brand, model, capacityInLitres, isDefrosting, energyEfficiencyClass);
+        fridge[1] = new Fridge("Samsung", "A-57", 20, true, "A");
+        fridge[2] = Fridge.getInstance();
+        fridge[3] = Fridge.getInstance();
+
+        for (int i = 0; i < 4; i++)
+        {
+            System.out.println(fridge[i].toString());
+        }
     }
 }
