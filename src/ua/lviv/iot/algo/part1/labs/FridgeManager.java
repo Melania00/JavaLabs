@@ -19,12 +19,12 @@ public class FridgeManager {
     public static void main(String[] args) {
         fridgesCameraList = new LinkedList<>();
         for(int i = 0; i < fridgeCameraCapacity.length; i++){
-            fridgesCameraList.add(new FridgeCamera(brand[i],"daabifb134ascfq",fridgeCameraCapacity[i],true,"A",1,"mechanic",20,1,15));
+            fridgesCameraList.add(new FridgeCamera(brand[i],"dfy677y",fridgeCameraCapacity[i],true,"A",1,"mechanic",20,1,15));
         }
 
         wineFridges = new LinkedList<>();
         for(int i = 0; i < fridgeWineCapacity.length; i++){
-            wineFridges.add(new WineFridge("Nexus","ff4hh8",fridgeWineCapacity[i],false, "B", 40, 2));
+            wineFridges.add(new WineFridge(brand[i],"ff4hh8",fridgeWineCapacity[i],false, "B", 40, 2));
         }
 
         for (FridgeCamera item : fridgesCameraList) {
