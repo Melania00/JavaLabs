@@ -5,10 +5,10 @@ import lombok.*;
 @Setter
 abstract class Fridge {
     public String brand;
-    public static String model;
-    public static int capacityInLitres;
-    public static boolean isDefrosting;
-    public static String energyEfficiencyClass;
+    public  String model;
+    public  int capacityInLitres;
+    public  boolean isDefrosting;
+    public  String energyEfficiencyClass;
 
     public Fridge(String brand,String model, int capacityInLitres,
                   boolean isDefrosting, String energyEfficiencyClass){
@@ -36,17 +36,17 @@ abstract class Fridge {
 
     public abstract int  getMaxUsableCapacity(int maxUsableCapacity);
 
-    public String toString(Object obj) {
+    public void toString(Object obj) {
         Fridge fridge = (Fridge) obj;
-        System.out.println(String.format(
+        System.out.printf(
                 "Brand: %s \nModel: %s\ncapacityInLitres: %s\n" +
-                        "isDefrosting: %s\nenergyEfficiencyClass: %s\n",
+                        "isDefrosting: %s\nenergyEfficiencyClass: %s\n%n",
                 fridge.brand,
                 fridge.model,
                 fridge.capacityInLitres,
                 fridge.isDefrosting,
                 fridge.energyEfficiencyClass
-        ));
+        );
         if (obj instanceof WineFridge) {
             WineFridge winefridge = (WineFridge) obj;
             System.out.println(String.format(
@@ -70,7 +70,6 @@ abstract class Fridge {
                     fridgecamera.VOLUME_PER_KILOGRAM
             ));
         }
-        return null;
     }
 
 }

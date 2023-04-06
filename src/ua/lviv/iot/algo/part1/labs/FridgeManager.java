@@ -8,13 +8,13 @@ import java.util.List;
 @Getter
 
 public class FridgeManager {
-    private static LinkedList<FridgeCamera> fridgesCameraList;
+    private static List<FridgeCamera> fridgesCameraList;
     private static int[] fridgeCameraCapacity = {3, 5, 1};
     private static String[] brand = {"Nexus","Samsung","Apple"};
     private static int[] volumePerKilogram= {2,4,5};
 
     private static LinkedList<WineFridge> wineFridges;
-    private static int[] fridgeWineCapacity = {1,2,3};
+    private static final int[] fridgeWineCapacity = {1,2,3};
 
     public static void main(String[] args) {
         fridgesCameraList = new LinkedList<>();
