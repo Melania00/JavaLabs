@@ -7,23 +7,6 @@ public class FridgeCamera extends Fridge{
     private final int beltSpeed;
     private final int maxWeightOfSausage;
     private final int maxTapeSpeed;
-
-    public int getNumberOfEntries(){
-        return numberOfEntries;
-    }
-    public String getTypeOfDriveType(){
-        return typeOfDriveType;
-    }
-    public int getBeltSpeed(){
-        return beltSpeed;
-    }
-    public int getMaxWeightOfSausage(){
-        return maxWeightOfSausage;
-    }
-    public int getMaxTapeSpeed(){
-        return maxTapeSpeed;
-    }
-
     public final int VOLUME_PER_KILOGRAM = 2;
     public FridgeCamera(String brand,String model, int capacityInLitres,
                         boolean isDefrosting, String energyEfficiencyClass,

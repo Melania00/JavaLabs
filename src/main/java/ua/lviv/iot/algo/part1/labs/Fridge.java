@@ -8,22 +8,6 @@ abstract class Fridge {
     private final boolean isDefrosting;
     private final String energyEfficiencyClass;
 
-    public String getBrand(){
-        return brand;
-    }
-    public String getModel(){
-        return model;
-    }
-    public int getCapacityInLitres(){
-        return capacityInLitres;
-    }
-    public boolean getIsDefrosting(){
-        return isDefrosting;
-    }
-    public String getEnergyEfficiencyClass(){
-        return energyEfficiencyClass;
-    }
-
     public Fridge(String brand,String model, int capacityInLitres,
                   boolean isDefrosting, String energyEfficiencyClass){
         this.brand = brand;

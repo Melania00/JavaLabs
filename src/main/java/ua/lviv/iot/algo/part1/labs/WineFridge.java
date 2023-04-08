@@ -4,13 +4,6 @@ import lombok.*;
 public class WineFridge extends Fridge{
     private final int maxNumberOfBottles;
     private final int maxVolumeOfBottles;
-
-    public int getMaxNumberOfBottles(){
-        return maxNumberOfBottles;
-    }
-    public int getMaxVolumeOfBottles(){
-        return maxVolumeOfBottles;
-    }
     public WineFridge(String brand,String model, int capacityInLitres,
                       boolean isDefrosting, String energyEfficiencyClass,
                       int maxNumberOfBottles, int maxVolumeOfBottles){

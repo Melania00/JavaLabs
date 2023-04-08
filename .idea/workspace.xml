@@ -5,30 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66af17a8-9b6f-45fe-b751-66ca532fff24" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/WineFridgeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/Fridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeCamera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/WineFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/WineFridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ear/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ejbs/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ejbs/src/main/resources/META-INF/ejb-jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/primary-source/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/projects/logging/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/projects/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/servlets/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/servlets/servlet/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/servlets/servlet/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/servlets/servlet/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/Fridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/Fridge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeCamera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeCamera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/WineFridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/WineFridge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.class" afterDir="false" />
     </list>
     <list id="0f8abf30-1827-4698-bd69-6517e7fb90fb" name="Recovering files" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +74,7 @@
       <recent name="ua.lviv.iot.algo.part1.labs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FridgeCameraTest.testGetMaxUsableCapacity">
+  <component name="RunManager" selected="JUnit.WineFridgeTest.testEnergyEfficiencyClass">
     <configuration name="FridgeManager" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../Java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -98,7 +84,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridgeCameraTest.testDeleteModelInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WineFridgeTest.testBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <extension name="coverage">
         <pattern>
@@ -107,14 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.FridgeCameraTest" />
-      <option name="METHOD_NAME" value="testDeleteModelInfo" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testBrand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridgeCameraTest.testGetMaxUsableCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WineFridgeTest.testCapacityInLitres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <extension name="coverage">
         <pattern>
@@ -123,14 +109,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.FridgeCameraTest" />
-      <option name="METHOD_NAME" value="testGetMaxUsableCapacity" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testCapacityInLitres" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridgeCameraTest.testTurnOnDefrosting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WineFridgeTest.testEnergyEfficiencyClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <extension name="coverage">
         <pattern>
@@ -139,8 +125,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.FridgeCameraTest" />
-      <option name="METHOD_NAME" value="testTurnOnDefrosting" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testEnergyEfficiencyClass" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WineFridgeTest.testMaxVolumeOfBottles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testMaxVolumeOfBottles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WineFridgeTest.testModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="work" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,15 +174,19 @@
     <list>
       <item itemvalue="Application.FridgeManager" />
       <item itemvalue="Java Scratch.Unnamed" />
-      <item itemvalue="JUnit.FridgeCameraTest.testDeleteModelInfo" />
-      <item itemvalue="JUnit.FridgeCameraTest.testGetMaxUsableCapacity" />
-      <item itemvalue="JUnit.FridgeCameraTest.testTurnOnDefrosting" />
+      <item itemvalue="JUnit.WineFridgeTest.testBrand" />
+      <item itemvalue="JUnit.WineFridgeTest.testCapacityInLitres" />
+      <item itemvalue="JUnit.WineFridgeTest.testEnergyEfficiencyClass" />
+      <item itemvalue="JUnit.WineFridgeTest.testMaxVolumeOfBottles" />
+      <item itemvalue="JUnit.WineFridgeTest.testModel" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FridgeCameraTest.testGetMaxUsableCapacity" />
-        <item itemvalue="JUnit.FridgeCameraTest.testDeleteModelInfo" />
-        <item itemvalue="JUnit.FridgeCameraTest.testTurnOnDefrosting" />
+        <item itemvalue="JUnit.WineFridgeTest.testEnergyEfficiencyClass" />
+        <item itemvalue="JUnit.WineFridgeTest.testCapacityInLitres" />
+        <item itemvalue="JUnit.WineFridgeTest.testModel" />
+        <item itemvalue="JUnit.WineFridgeTest.testBrand" />
+        <item itemvalue="JUnit.WineFridgeTest.testMaxVolumeOfBottles" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +201,7 @@
       <updated>1678282975816</updated>
       <workItem from="1680500611757" duration="2741000" />
       <workItem from="1680802953428" duration="12444000" />
-      <workItem from="1680965264913" duration="8623000" />
+      <workItem from="1680965264913" duration="12932000" />
     </task>
     <servers />
   </component>
