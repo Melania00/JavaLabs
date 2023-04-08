@@ -1,14 +1,11 @@
 package ua.lviv.iot.algo.part1.labs;
-import lombok.*;
-@ToString
-@Getter
-@Setter
+
 abstract class Fridge {
     public String brand;
-    public  String model;
-    public  int capacityInLitres;
-    public  boolean isDefrosting;
-    public  String energyEfficiencyClass;
+    public String model;
+    public int capacityInLitres;
+    public boolean isDefrosting;
+    public String energyEfficiencyClass;
 
     public Fridge(String brand,String model, int capacityInLitres,
                   boolean isDefrosting, String energyEfficiencyClass){
@@ -71,5 +68,4 @@ abstract class Fridge {
             ));
         }
     }
-
 }

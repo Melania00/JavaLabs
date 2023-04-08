@@ -1,8 +1,4 @@
 package ua.lviv.iot.algo.part1.labs;
-import lombok.*;
-@ToString
-@Getter
-@Setter
 
 public class WineFridge extends Fridge{
     public int maxNumberOfBottles;
@@ -18,5 +14,4 @@ public class WineFridge extends Fridge{
     public int getMaxUsableCapacity(int maxUsableCapacity) {
         return 0;
     }
-
 }

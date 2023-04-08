@@ -1,8 +1,4 @@
 package ua.lviv.iot.algo.part1.labs;
-import lombok.*;
-@ToString
-@Getter
-@Setter
 
 public class FridgeCamera extends Fridge{
     public String brand = super.brand;

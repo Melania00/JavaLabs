@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66af17a8-9b6f-45fe-b751-66ca532fff24" name="Changes" comment="">
+    <list default="true" id="66af17a8-9b6f-45fe-b751-66ca532fff24" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaLab1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/maven/src/main/resources/archetype-resources/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/Fridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/FridgeCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/FridgeCamera.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/FridgeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/FridgeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/WineFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/lviv/iot/algo/part1/labs/WineFridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
+    <list id="0f8abf30-1827-4698-bd69-6517e7fb90fb" name="Recovering files" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,42 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Melanie/AllJavaLabs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Melanie\IdeaProjects\javaLab1" />
+      <recent name="C:\Users\Melanie\AllJavaLabs\maven\src" />
+      <recent name="C:\Users\Melanie\AllJavaLabs\src" />
+      <recent name="C:\Users\Melanie\AllJavaLabs" />
+      <recent name="C:\Users\Melanie\AllJavaLabs\src\out\production\javaLab1\generated\ua\lviv\iot\algo\part1\labs" />
+      <recent name="C:\Users\Melanie\AllJavaLabs\out\production\javaLab1\generated" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FridgeManager">
+  <component name="RunManager">
     <configuration name="FridgeManager" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../Java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.FridgeManager" />
-      <module name="javaLab1" />
+      <option name="MAIN_CLASS_NAME" value="FridgeManager" />
+      <module name="work" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,21 +77,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.FridgeManager" />
-      <item itemvalue="Java Scratch.Unnamed" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="66af17a8-9b6f-45fe-b751-66ca532fff24" name="Changes" comment="" />
+      <changelist id="0f8abf30-1827-4698-bd69-6517e7fb90fb" name="Recovering files" comment="" />
       <created>1678282975816</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678282975816</updated>
       <workItem from="1680500611757" duration="2741000" />
-      <workItem from="1680802953428" duration="4669000" />
+      <workItem from="1680802953428" duration="12444000" />
     </task>
     <servers />
   </component>
@@ -112,6 +98,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="7438eaec-7f65-4b1f-9631-ac7cc6520c42">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Melanie/AllJavaLabs/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -119,6 +130,12 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="7438eaec-7f65-4b1f-9631-ac7cc6520c42" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

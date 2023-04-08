@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/out/production/javaLab1/generated/ua/lviv/iot/algo/part1/labs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ua/lviv/iot/algo/part1/labs" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/out/production/javaLab1/generated/ua/lviv/iot/algo/part1/labs" />
+    </content>
+  </component>
+</module>
