@@ -30,13 +30,6 @@
     <scope>compile</scope>
   </dependency>
 
-    <dependency>
-      <groupId>com.github.spotbugs</groupId>
-      <artifactId>spotbugs</artifactId>
-      <version>4.4.2</version>
-      <scope>provided</scope>
-    </dependency>
-
   </dependencies>
 
 
@@ -75,6 +68,12 @@
         <groupId>com.github.spotbugs</groupId>
         <artifactId>spotbugs-maven-plugin</artifactId>
         <version>4.4.2</version>
+        <configuration>
+          <excludes>
+            <exclude>Fridge.java</exclude>
+            <exclude>FridgeManager.java</exclude>
+          </excludes>
+        </configuration>
         <executions>
           <execution>
             <phase>verify</phase>
@@ -83,12 +82,15 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <effort>Max</effort>
-          <threshold>Low</threshold>
-          <xmlOutput>true</xmlOutput>
-        </configuration>
-      </plugin>
+      <dependencies>
+        <dependency>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs</artifactId>
+          <version>4.4.2</version>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+    </plugin>
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

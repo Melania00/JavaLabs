@@ -5,42 +5,28 @@ import java.util.List;
 
 public class FridgeManager {
     private static List<FridgeCamera> fridgesCameraList;
-    private static final int[] fridgeCameraCapacity = {3, 5, 1};
-    private static final String[] brand = {"Nexus", "Samsung", "Apple"};
-    private static final int[] volumePerKilogram = {2, 4, 5};
+    private static int[] fridgeCameraCapacity = {3, 5, 1};
+    private static String[] brand = {"Nexus","Samsung","Apple"};
+    private static int[] volumePerKilogram= {2,4,5};
     private static ArrayList<WineFridge> wineFridges;
-    private static final int[] fridgeWineCapacity = {1, 2, 3};
+    private static final int[] fridgeWineCapacity = {1,2,3};
 
-    public void toString(Object obj) {
-        Fridge fridge = (Fridge) obj;
-        System.out.printf("Brand: %s \nModel: %s\ncapacityInLitres: %s\n" +
-                        "isDefrosting: %s\nenergyEfficiencyClass: %s\n%n",
-                fridge.getBrand(),
-                fridge.getModel(),
-                fridge.getCapacityInLitres(),
-                fridge.isDefrosting(),
-                fridge.getEnergyEfficiencyClass()
-        );
-        if (obj instanceof WineFridge) {
-            WineFridge winefridge = (WineFridge) obj;
-            System.out.printf("maxNumberOfBottles: %s \n" +
-                            "maxVolumeOfBottles: %s \n%n",
-                    winefridge.getMaxNumberOfBottles(),
-                    winefridge.getMaxVolumeOfBottles()
-            );
+    public static void main(String[] args) {
+        fridgesCameraList = new ArrayList<>();
+        for(int i = 0; i < fridgeCameraCapacity.length; i++){
+            fridgesCameraList.add(new FridgeCamera(brand[i],"dfy677y",fridgeCameraCapacity[i],true,"A",1,"mechanic",20,1,15));
         }
-        else if (obj instanceof FridgeCamera) {
-            FridgeCamera fridgecamera = (FridgeCamera) obj;
-            System.out.printf("numberOfEntries: %s \n typeOfDriveType: %s\n" +
-                            "beltSpeed: %s\n maxWeightOfSausage: %s\n" +
-                            "maxTapeSpeed: %s\n VOLUME_PER_KILOGRAM: %s\n%n",
-                    fridgecamera.getNumberOfEntries(),
-                    fridgecamera.getTypeOfDriveType(),
-                    fridgecamera.getBeltSpeed(),
-                    fridgecamera.getMaxWeightOfSausage(),
-                    fridgecamera.getMaxTapeSpeed(),
-                    fridgecamera.VOLUME_PER_KILOGRAM
-            );
+
+        wineFridges = new ArrayList<>();
+        for(int i = 0; i < fridgeWineCapacity.length; i++){
+            wineFridges.add(new WineFridge(brand[i],"ff4hh8",fridgeWineCapacity[i],false, "B", 40, 2));
+        }
+
+        for (FridgeCamera item : fridgesCameraList) {
+            item.toString(item);
+        }
+        for (WineFridge item : wineFridges) {
+            item.toString(item);
         }
     }
 }
