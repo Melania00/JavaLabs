@@ -1,13 +1,28 @@
 package ua.lviv.iot.algo.part1.labs;
-
+import lombok.*;
+@Getter
 public class FridgeCamera extends Fridge{
-    public String brand = super.brand;
-    public Fridge fridge;
-    public int numberOfEntries;
-    public String typeOfDriveType;
-    public int beltSpeed;
-    public int maxWeightOfSausage;
-    public int maxTapeSpeed;
+    private final int numberOfEntries;
+    private final String typeOfDriveType;
+    private final int beltSpeed;
+    private final int maxWeightOfSausage;
+    private final int maxTapeSpeed;
+
+    public int getNumberOfEntries(){
+        return numberOfEntries;
+    }
+    public String getTypeOfDriveType(){
+        return typeOfDriveType;
+    }
+    public int getBeltSpeed(){
+        return beltSpeed;
+    }
+    public int getMaxWeightOfSausage(){
+        return maxWeightOfSausage;
+    }
+    public int getMaxTapeSpeed(){
+        return maxTapeSpeed;
+    }
 
     public final int VOLUME_PER_KILOGRAM = 2;
     public FridgeCamera(String brand,String model, int capacityInLitres,

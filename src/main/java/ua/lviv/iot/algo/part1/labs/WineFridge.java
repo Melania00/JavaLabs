@@ -1,8 +1,16 @@
 package ua.lviv.iot.algo.part1.labs;
-
+import lombok.*;
+@Getter
 public class WineFridge extends Fridge{
-    public int maxNumberOfBottles;
-    public double maxVolumeOfBottles;
+    private final int maxNumberOfBottles;
+    private final int maxVolumeOfBottles;
+
+    public int getMaxNumberOfBottles(){
+        return maxNumberOfBottles;
+    }
+    public int getMaxVolumeOfBottles(){
+        return maxVolumeOfBottles;
+    }
     public WineFridge(String brand,String model, int capacityInLitres,
                       boolean isDefrosting, String energyEfficiencyClass,
                       int maxNumberOfBottles, int maxVolumeOfBottles){

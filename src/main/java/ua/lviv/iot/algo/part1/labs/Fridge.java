@@ -1,11 +1,28 @@
 package ua.lviv.iot.algo.part1.labs;
-
+import lombok.*;
+@Getter
 abstract class Fridge {
-    public String brand;
-    public String model;
-    public int capacityInLitres;
-    public boolean isDefrosting;
-    public String energyEfficiencyClass;
+    private final String brand;
+    private final String model;
+    private final int capacityInLitres;
+    private final boolean isDefrosting;
+    private final String energyEfficiencyClass;
+
+    public String getBrand(){
+        return brand;
+    }
+    public String getModel(){
+        return model;
+    }
+    public int getCapacityInLitres(){
+        return capacityInLitres;
+    }
+    public boolean getIsDefrosting(){
+        return isDefrosting;
+    }
+    public String getEnergyEfficiencyClass(){
+        return energyEfficiencyClass;
+    }
 
     public Fridge(String brand,String model, int capacityInLitres,
                   boolean isDefrosting, String energyEfficiencyClass){
@@ -35,8 +52,8 @@ abstract class Fridge {
             WineFridge winefridge = (WineFridge) obj;
             System.out.printf("maxNumberOfBottles: %s \n" +
                             "maxVolumeOfBottles: %s \n%n",
-                    winefridge.maxNumberOfBottles,
-                    winefridge.maxVolumeOfBottles
+                    winefridge.getMaxNumberOfBottles(),
+                    winefridge.getMaxVolumeOfBottles()
             );
         }
         else if (obj instanceof FridgeCamera) {
@@ -44,11 +61,11 @@ abstract class Fridge {
             System.out.printf("numberOfEntries: %s \n typeOfDriveType: %s\n" +
                             "beltSpeed: %s\n maxWeightOfSausage: %s\n" +
                             "maxTapeSpeed: %s\n VOLUME_PER_KILOGRAM: %s\n%n",
-                    fridgecamera.numberOfEntries,
-                    fridgecamera.typeOfDriveType,
-                    fridgecamera.beltSpeed,
-                    fridgecamera.maxWeightOfSausage,
-                    fridgecamera.maxTapeSpeed,
+                    fridgecamera.getNumberOfEntries(),
+                    fridgecamera.getTypeOfDriveType(),
+                    fridgecamera.getBeltSpeed(),
+                    fridgecamera.getMaxWeightOfSausage(),
+                    fridgecamera.getMaxTapeSpeed(),
                     fridgecamera.VOLUME_PER_KILOGRAM
             );
         }
