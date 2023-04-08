@@ -7,7 +7,7 @@ public class FridgeCamera extends Fridge{
     private final int beltSpeed;
     private final int maxWeightOfSausage;
     private final int maxTapeSpeed;
-    public final int VOLUME_PER_KILOGRAM = 2;
+    public int VOLUME_PER_KILOGRAM = 2;
     public FridgeCamera(String brand,String model, int capacityInLitres,
                         boolean isDefrosting, String energyEfficiencyClass,
                         int numberOfEntries, String typeOfDriveType, int beltSpeed,

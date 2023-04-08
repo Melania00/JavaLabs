@@ -24,8 +24,8 @@ abstract class Fridge {
 
     public void toString(Object obj) {
         Fridge fridge = (Fridge) obj;
-        System.out.printf("Brand: %s \nModel: %s\ncapacityInLitres: %s\n" +
-                        "isDefrosting: %s\nenergyEfficiencyClass: %s\n%n",
+        System.out.printf("Brand: %s%n  Model: %s%n capacityInLitres: %d%n " +
+                        "isDefrosting: %s%n  energyEfficiencyClass: %s%n ",
                 fridge.brand,
                 fridge.model,
                 fridge.capacityInLitres,
@@ -34,17 +34,17 @@ abstract class Fridge {
         );
         if (obj instanceof WineFridge) {
             WineFridge winefridge = (WineFridge) obj;
-            System.out.printf("maxNumberOfBottles: %s \n" +
-                            "maxVolumeOfBottles: %s \n%n",
+            System.out.printf("maxNumberOfBottles: %d%n " +
+                            "maxVolumeOfBottles: %d%n ",
                     winefridge.getMaxNumberOfBottles(),
                     winefridge.getMaxVolumeOfBottles()
             );
         }
         else if (obj instanceof FridgeCamera) {
             FridgeCamera fridgecamera = (FridgeCamera) obj;
-            System.out.printf("numberOfEntries: %s \n typeOfDriveType: %s\n" +
-                            "beltSpeed: %s\n maxWeightOfSausage: %s\n" +
-                            "maxTapeSpeed: %s\n VOLUME_PER_KILOGRAM: %s\n%n",
+            System.out.printf("numberOfEntries: %d%n typeOfDriveType: %s%n " +
+                            "beltSpeed: %d%n maxWeightOfSausage: %d%n" +
+                            "maxTapeSpeed: %d%n VOLUME_PER_KILOGRAM: %d%n",
                     fridgecamera.getNumberOfEntries(),
                     fridgecamera.getTypeOfDriveType(),
                     fridgecamera.getBeltSpeed(),
