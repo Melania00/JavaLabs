@@ -10,8 +10,24 @@ public class WineFridge extends Fridge{
         this.maxNumberOfBottles = maxNumberOfBottles;
         this.maxVolumeOfBottles = maxVolumeOfBottles;
     }
+
     @Override
-    public int getMaxUsableCapacity(int maxUsableCapacity) {
-        return 0;
+    public boolean turnOnDefrosting(boolean isDefrosting) {
+        return true;
+    }
+
+    @Override
+    public boolean turnOffDefrosting(boolean isDefrosting) {
+        return false;
+    }
+
+    @Override
+    public String deleteModelInfo(String model) {
+        return null;
+    }
+
+    @Override
+    public int getMaxUsableCapacity(int capacityInLitres) {
+        return capacityInLitres * 10;
     }
 }

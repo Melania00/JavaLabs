@@ -16,27 +16,14 @@ abstract class Fridge {
         this.energyEfficiencyClass = energyEfficiencyClass;
     }
 
-    public boolean turnOnDefrosting ()
-    {
-        isDefrosting = true;
-        return true;
-    }
-    public boolean turnOffDefrosting ()
-    {
-        isDefrosting = false;
-        return false;
-    }
-    public void deleteModelInfo ()
-    {
-        model = null;
-    }
-
+    public abstract boolean turnOnDefrosting (boolean isDefrosting);
+    public abstract boolean turnOffDefrosting (boolean isDefrosting);
+    public abstract String deleteModelInfo (String model);
     public abstract int  getMaxUsableCapacity(int maxUsableCapacity);
 
     public void toString(Object obj) {
         Fridge fridge = (Fridge) obj;
-        System.out.printf(
-                "Brand: %s \nModel: %s\ncapacityInLitres: %s\n" +
+        System.out.printf("Brand: %s \nModel: %s\ncapacityInLitres: %s\n" +
                         "isDefrosting: %s\nenergyEfficiencyClass: %s\n%n",
                 fridge.brand,
                 fridge.model,
@@ -46,26 +33,24 @@ abstract class Fridge {
         );
         if (obj instanceof WineFridge) {
             WineFridge winefridge = (WineFridge) obj;
-            System.out.println(String.format(
-                    "maxNumberOfBottles: %s \n" +
-                            "maxVolumeOfBottles: %s \n",
+            System.out.printf("maxNumberOfBottles: %s \n" +
+                            "maxVolumeOfBottles: %s \n%n",
                     winefridge.maxNumberOfBottles,
                     winefridge.maxVolumeOfBottles
-            ));
+            );
         }
         else if (obj instanceof FridgeCamera) {
             FridgeCamera fridgecamera = (FridgeCamera) obj;
-            System.out.println(String.format(
-                    "numberOfEntries: %s \n typeOfDriveType: %s\n" +
+            System.out.printf("numberOfEntries: %s \n typeOfDriveType: %s\n" +
                             "beltSpeed: %s\n maxWeightOfSausage: %s\n" +
-                            "maxTapeSpeed: %s\n VOLUME_PER_KILOGRAM: %s\n",
+                            "maxTapeSpeed: %s\n VOLUME_PER_KILOGRAM: %s\n%n",
                     fridgecamera.numberOfEntries,
                     fridgecamera.typeOfDriveType,
                     fridgecamera.beltSpeed,
                     fridgecamera.maxWeightOfSausage,
                     fridgecamera.maxTapeSpeed,
                     fridgecamera.VOLUME_PER_KILOGRAM
-            ));
+            );
         }
     }
 }

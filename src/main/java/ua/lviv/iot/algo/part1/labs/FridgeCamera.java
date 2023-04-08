@@ -22,7 +22,21 @@ public class FridgeCamera extends Fridge{
         this.maxTapeSpeed = maxTapeSpeed;
 
     }
+    @Override
+    public boolean turnOnDefrosting(boolean isDefrosting) {
+        return true;
+    }
+    @Override
+    public boolean turnOffDefrosting(boolean isDefrosting) {
+        return false;
+    }
+    @Override
+    public String deleteModelInfo(String model) {
+         return null;
+    }
 
     @Override
-    public int getMaxUsableCapacity(int maxUsableCapacity) {return 0;}
+    public int getMaxUsableCapacity(int capacityInLitres) {
+        return capacityInLitres * 10;
+    }
 }
