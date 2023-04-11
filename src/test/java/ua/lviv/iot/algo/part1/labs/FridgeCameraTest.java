@@ -10,7 +10,7 @@ class FridgeCameraTest {
         FridgeCamera fridgeCamera = new FridgeCamera("Nexus", "fysgjxs", 2, true,
                     "A", 1, "mechanic", 30, 5,
                      8);
-        assertEquals(true, fridgeCamera.turnOnDefrosting(true));
+        assertTrue(fridgeCamera.turnOnDefrosting(true));
     }
 
     @Test
@@ -18,7 +18,7 @@ class FridgeCameraTest {
         FridgeCamera fridgeCamera = new FridgeCamera("Nexus", "ydhjjc", 2, false,
                 "A", 1, "mechanic", 30, 5,
                 11);
-        assertEquals(false, fridgeCamera.turnOffDefrosting(false));
+        assertFalse(fridgeCamera.turnOffDefrosting(false));
     }
 
     @Test
@@ -26,7 +26,7 @@ class FridgeCameraTest {
         FridgeCamera fridgeCamera = new FridgeCamera("Nexus", "dhvuhld", 2, true,
                 "A", 1, "mechanic", 30, 8,
                 8);
-        assertEquals(null, fridgeCamera.deleteModelInfo("dhvuhld"));
+        assertNull(fridgeCamera.deleteModelInfo("dhvuhld"));
     }
 
     @Test
