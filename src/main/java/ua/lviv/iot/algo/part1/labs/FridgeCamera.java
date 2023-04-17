@@ -38,13 +38,17 @@ public class FridgeCamera extends Fridge{
         return capacityInLitres * 10;
     }
 
+    @Override
     public String getHeaders() {
-        return getHeaders() + "," + "numberOfEntries" + "," + "typeOfDriveType" + ","
-                + "beltSpeed" + "," + "maxWeightOfSausage" + "," + "maxTapeSpeed";
+        return "brand,model,capacityInLitres,isDefrosting,energyEfficiencyClass," +
+                "numberOfEntries,typeOfDriveType,beltSpeed,maxWeightOfSausage,maxTapeSpeed";
     }
 
+    @Override
     public String toCSV() {
-        return toCSV() + "," + numberOfEntries + "," + typeOfDriveType + ","
-                + beltSpeed + "," + maxWeightOfSausage + "," + maxTapeSpeed;
+        return getBrand() + "," + getModel() + "," + getCapacityInLitres() + "," +
+                isDefrosting() + "," + getEnergyEfficiencyClass() + "," +
+                numberOfEntries + "," + typeOfDriveType + "," + beltSpeed + "," +
+                maxWeightOfSausage + "," + maxTapeSpeed;
     }
 }

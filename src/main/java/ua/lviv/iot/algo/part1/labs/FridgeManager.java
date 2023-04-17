@@ -18,25 +18,31 @@ public class FridgeManager {
         fridges.add(fridge);
     }
 
-    public void removeFridge(Fridge fridge) {
-        fridges.remove(fridge);
-    }
-    public List<Fridge> getFridges() {
-        return fridges;
-    }
-
     public static void main(String[] args) {
-        FridgeManager fridgeManager = new FridgeManager();
-        FridgeCamera fridgeCamera1 = new FridgeCamera("Samsung", "FC-123", 200, true,
-                                                "A+++", 10, "Belt Drive",
-                                                5, 100, 20);
-        fridgeManager.addFridge(fridgeCamera1);
+        FridgeManager wineFridgeManager = new FridgeManager();
+        WineFridge wineFridge1 = new WineFridge("Samsung", "WF-123", 100, true,
+                                                "A+++", 20, 1000);
+        wineFridgeManager.addFridge(wineFridge1);
 
-        WineFridge wineFridge1 = new WineFridge("LG", "WF-456", 300, false,
-                                            "A++", 50, 700);
-        fridgeManager.addFridge(wineFridge1);
+        WineFridge wineFridge2 = new WineFridge("LG", "WF-456", 200, false,
+                                                "A++", 50, 700);
+        wineFridgeManager.addFridge(wineFridge2);
 
-        FridgeWriter fridgeWriter = new FridgeWriter();
-        fridgeWriter.writeToFile(fridgeManager.getFridges(), "fridges.csv");
+        FridgeWriter wineFridgeWriter = new FridgeWriter();
+        wineFridgeWriter.writeToFile(wineFridgeManager.getFridges(), "wine_fridges.csv");
+
+        FridgeManager cameraFridgeManager = new FridgeManager();
+        FridgeCamera cameraFridge1 = new FridgeCamera("Samsung", "FC-123", 200, true,
+                                                    "A+++", 10, "Belt Drive",
+                                                    5, 100, 20);
+        cameraFridgeManager.addFridge(cameraFridge1);
+
+        FridgeCamera cameraFridge2 = new FridgeCamera("LG", "FC-456", 300, false,
+                                                        "A++", 15, "Chain Drive",
+                                                        7, 150, 30);
+        cameraFridgeManager.addFridge(cameraFridge2);
+
+        FridgeWriter cameraFridgeWriter = new FridgeWriter();
+        cameraFridgeWriter.writeToFile(cameraFridgeManager.getFridges(), "camera_fridges.csv");
     }
 }

@@ -32,11 +32,16 @@ public class WineFridge extends Fridge{
         return capacityInLitres * 10;
     }
 
+    @Override
     public String getHeaders() {
-        return getHeaders() + "," + "maxNumberOfBottles" + "," + "maxVolumeOfBottles";
+        return "brand,model,capacityInLitres,isDefrosting,energyEfficiencyClass," +
+                "maxNumberOfBottles,maxVolumeOfBottles";
     }
 
+    @Override
     public String toCSV() {
-        return toCSV() + "," + maxNumberOfBottles + "," + maxVolumeOfBottles;
+        return getBrand() + "," + getModel() + "," + getCapacityInLitres() + "," +
+                isDefrosting() + "," + getEnergyEfficiencyClass() + "," +
+                maxNumberOfBottles + "," + maxVolumeOfBottles;
     }
 }
