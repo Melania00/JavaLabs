@@ -37,4 +37,14 @@ public class FridgeCamera extends Fridge{
     public int getMaxUsableCapacity(int capacityInLitres) {
         return capacityInLitres * 10;
     }
+
+    public String getHeaders() {
+        return getHeaders() + "," + "numberOfEntries" + "," + "typeOfDriveType" + ","
+                + "beltSpeed" + "," + "maxWeightOfSausage" + "," + "maxTapeSpeed";
+    }
+
+    public String toCSV() {
+        return toCSV() + "," + numberOfEntries + "," + typeOfDriveType + ","
+                + beltSpeed + "," + maxWeightOfSausage + "," + maxTapeSpeed;
+    }
 }
