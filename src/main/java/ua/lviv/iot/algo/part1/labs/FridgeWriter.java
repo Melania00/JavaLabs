@@ -6,14 +6,32 @@ import java.util.List;
 
 public class FridgeWriter {
     public void writeToFile(List<Fridge> fridges, String fileName) {
-        try (FileWriter writer = new FileWriter(fileName)) {
-            writer.write(fridges.get(0).getHeaders() + "\n");
+        try {
+            FileWriter writer = new FileWriter(fileName);
 
+            // Write headers for WineFridges
+            writer.append("Brand,Model,CapacityInLitres,isDefrosting,EnergyEfficiencyClass,maxNumberOfBottles,maxVolumeOfBottles\n");
             for (Fridge fridge : fridges) {
-                writer.write(fridge.toCSV() + "\n");
+                if (fridge instanceof WineFridge) {
+                    writer.append(fridge.toCSV());
+                    writer.append("\n");
+                }
             }
+
+            // Write headers for FridgeCameras
+            writer.append("\nBrand,Model,CapacityInLitres,isDefrosting,EnergyEfficiencyClass,numberOfEntries,typeOfDriveType," +
+                    "beltSpeed,maxWeightOfSausage,maxWeightOfSausage\n");
+            for (Fridge fridge : fridges) {
+                if (fridge instanceof FridgeCamera) {
+                    writer.append(fridge.toCSV());
+                    writer.append("\n");
+                }
+            }
+
+            writer.flush();
+            writer.close();
         } catch (IOException e) {
-            System.err.format("IOException: %s%n", e);
+            e.printStackTrace();
         }
     }
 }

@@ -49,6 +49,6 @@ public class FridgeCamera extends Fridge{
         return getBrand() + "," + getModel() + "," + getCapacityInLitres() + "," +
                 isDefrosting() + "," + getEnergyEfficiencyClass() + "," +
                 numberOfEntries + "," + typeOfDriveType + "," + beltSpeed + "," +
-                maxWeightOfSausage + "," + maxTapeSpeed;
+                maxWeightOfSausage + "," + maxWeightOfSausage;
     }
 }
