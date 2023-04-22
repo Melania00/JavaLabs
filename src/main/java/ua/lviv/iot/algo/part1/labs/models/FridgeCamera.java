@@ -1,5 +1,6 @@
 package ua.lviv.iot.algo.part1.labs.models;
-import lombok.*;
+
+import lombok.Getter;
 
 @Getter
 public class FridgeCamera extends Fridge {
@@ -9,7 +10,8 @@ public class FridgeCamera extends Fridge {
     private final int maxWeightOfSausage;
     private final int maxTapeSpeed;
     public int VOLUME_PER_KILOGRAM = 2;
-    public FridgeCamera(String brand,String model, int capacityInLitres,
+
+    public FridgeCamera(String brand, String model, int capacityInLitres,
                         boolean isDefrosting, String energyEfficiencyClass,
                         int numberOfEntries, String typeOfDriveType, int beltSpeed,
                         int maxWeightOfSausage, int maxTapeSpeed) {
@@ -21,17 +23,20 @@ public class FridgeCamera extends Fridge {
         this.maxTapeSpeed = maxTapeSpeed;
 
     }
+
     @Override
     public boolean turnOnDefrosting(boolean isDefrosting) {
         return true;
     }
+
     @Override
     public boolean turnOffDefrosting(boolean isDefrosting) {
         return false;
     }
+
     @Override
     public String deleteModelInfo(String model) {
-         return null;
+        return null;
     }
 
     @Override

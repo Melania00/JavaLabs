@@ -1,4 +1,4 @@
-ua\lviv\iot\algo\part1\labs\FridgeTest.class
-ua\lviv\iot\algo\part1\labs\WineFridgeTest.class
-ua\lviv\iot\algo\part1\labs\writers\tests\FridgeWriterTest.class
-ua\lviv\iot\algo\part1\labs\FridgeCameraTest.class
+ua\lviv\iot\algo\part1\labs\models\FridgeCameraTest.class
+ua\lviv\iot\algo\part1\labs\models\FridgeTest.class
+ua\lviv\iot\algo\part1\labs\models\WineFridgeTest.class
+ua\lviv\iot\algo\part1\labs\writers\FridgeWriterTest.class

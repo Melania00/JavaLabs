@@ -5,139 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66af17a8-9b6f-45fe-b751-66ca532fff24" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/writers/FridgeWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/fridges.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/models/tests/FridgeCameraTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/models/tests/WineFridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/writers/tests/FridgeWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_fridges.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fridges.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLabs/target/spotbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaLabs/target/spotbugsXml.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/Fridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/FridgeCamera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/WineFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/WineFridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/models/tests/FridgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/WineFridgeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/Fridge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeCamera.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/WineFridge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/FridgeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/managers/FridgeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/Fridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/FridgeCamera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/FridgeCamera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/WineFridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/models/WineFridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/writers/FridgeWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/lviv/iot/algo/part1/labs/writers/FridgeWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/models/FridgeCameraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/FridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/models/FridgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/WineFridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/models/WineFridgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/writers/tests/FridgeWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ua/lviv/iot/algo/part1/labs/writers/FridgeWriterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/FridgeManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/models/Fridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/models/Fridge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/models/FridgeCamera.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/models/FridgeCamera.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/models/WineFridge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/models/WineFridge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/writers/FridgeWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/lviv/iot/algo/part1/labs/writers/FridgeWriter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pmd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pmd/rulesets/maven-pmd-plugin-default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/checkstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/apache-maven-fluido-2.0.0-M2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/print.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependencies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/dependency-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/accessories-text-editor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/add.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/apache-maven-project-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/application-certificate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/close.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/contact-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/document-properties.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/drive-harddisk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/fix.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_help_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/image-x-generic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/internet-web-browser.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/network-server.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/package-x-generic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/profiles/pre-release.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/profiles/retired.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/profiles/sandbox.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/remove.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/rss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/update.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/images/window-new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/img/glyphicons-halflings-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/img/glyphicons-halflings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco-aggregate/jacoco.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/Fridge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/Fridge.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/FridgeCamera.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/FridgeCamera.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/WineFridge.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/WineFridge.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/index.source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/js/apache-maven-fluido-2.0.0-M2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugin-management.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/plugins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/pmd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/project-reports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/spotbugs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/Fridge.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/Fridge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/Fridge.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/Fridge.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/FridgeCamera.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/FridgeCamera.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/FridgeCamera.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/FridgeCamera.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/WineFridge.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/WineFridge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/WineFridge.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/WineFridge.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.models/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/FridgeWriter.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/FridgeWriter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/FridgeWriter.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/FridgeWriter.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs.writers/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/FridgeManager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/FridgeManager.java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/ua.lviv.iot.algo.part1.labs/index.source.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/spotbugsXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/spotbugsXml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.algo.part1.labs.FridgeCameraTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.algo.part1.labs.FridgeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ua.lviv.iot.algo.part1.labs.WineFridgeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.algo.part1.labs.FridgeCameraTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.algo.part1.labs.FridgeTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ua.lviv.iot.algo.part1.labs.WineFridgeTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/algo/part1/labs/FridgeCameraTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/algo/part1/labs/FridgeTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/algo/part1/labs/WineFridgeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ua/lviv/iot/algo/part1/labs/writers/tests/FridgeWriterTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/work-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/work-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wine_fridges.csv" beforeDir="false" />
     </list>
     <list id="0f8abf30-1827-4698-bd69-6517e7fb90fb" name="Recovering files" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +73,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fourth-laba" />
+        <entry key="$PROJECT_DIR$/JavaLabs" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -167,34 +93,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Melanie/AllJavaLabs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Melanie\AllJavaLabs\src\test\resources" />
       <recent name="C:\Users\Melanie\AllJavaLabs\maven\src" />
       <recent name="C:\Users\Melanie\AllJavaLabs\src" />
       <recent name="C:\Users\Melanie\AllJavaLabs" />
       <recent name="C:\Users\Melanie\AllJavaLabs\src\out\production\javaLab1\generated\ua\lviv\iot\algo\part1\labs" />
+      <recent name="C:\Users\Melanie\AllJavaLabs\out\production\javaLab1\generated" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ua.lviv.iot.algo.part1.labs" />
       <recent name="ua.lviv.iot.algo.part1.labs.writers" />
       <recent name="ua.lviv.iot.algo.part1.labs.models" />
       <recent name="" />
@@ -213,33 +136,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridgeWriterTest.testWriteEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FridgeWriterTest.testWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.*" />
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.writers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.writers.tests" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.writers.tests.FridgeWriterTest" />
-      <option name="METHOD_NAME" value="testWriteEmptyList" />
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.writers" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.writers.FridgeWriterTest" />
+      <option name="METHOD_NAME" value="testWriteToFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridgeWriterTest.testWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WineFridgeTest.testBrand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.*" />
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.writers.tests" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.writers.tests.FridgeWriterTest" />
-      <option name="METHOD_NAME" value="testWriteToFile" />
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testBrand" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -249,12 +172,12 @@
       <module name="work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.*" />
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests.WineFridgeTest" />
       <option name="METHOD_NAME" value="testCapacityInLitres" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -265,29 +188,29 @@
       <module name="work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.*" />
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests.WineFridgeTest" />
       <option name="METHOD_NAME" value="testEnergyEfficiencyClass" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WineFridgeTest.testGetHeaders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WineFridgeTest.testModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="work" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.*" />
+          <option name="PATTERN" value="ua.lviv.iot.algo.part1.labs.models.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs" />
-      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.WineFridgeTest" />
-      <option name="METHOD_NAME" value="testGetHeaders" />
+      <option name="PACKAGE_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests" />
+      <option name="MAIN_CLASS_NAME" value="ua.lviv.iot.algo.part1.labs.models.tests.WineFridgeTest" />
+      <option name="METHOD_NAME" value="testModel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -303,19 +226,19 @@
     <list>
       <item itemvalue="Application.FridgeManager" />
       <item itemvalue="Java Scratch.Unnamed" />
-      <item itemvalue="JUnit.FridgeWriterTest.testWriteEmptyList" />
       <item itemvalue="JUnit.FridgeWriterTest.testWriteToFile" />
-      <item itemvalue="JUnit.WineFridgeTest.testGetHeaders" />
+      <item itemvalue="JUnit.WineFridgeTest.testBrand" />
       <item itemvalue="JUnit.WineFridgeTest.testCapacityInLitres" />
       <item itemvalue="JUnit.WineFridgeTest.testEnergyEfficiencyClass" />
+      <item itemvalue="JUnit.WineFridgeTest.testModel" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FridgeWriterTest.testWriteToFile" />
-        <item itemvalue="JUnit.FridgeWriterTest.testWriteEmptyList" />
-        <item itemvalue="JUnit.WineFridgeTest.testGetHeaders" />
         <item itemvalue="JUnit.WineFridgeTest.testEnergyEfficiencyClass" />
         <item itemvalue="JUnit.WineFridgeTest.testCapacityInLitres" />
+        <item itemvalue="JUnit.WineFridgeTest.testModel" />
+        <item itemvalue="JUnit.WineFridgeTest.testBrand" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +290,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="fourth-laba" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
