@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>FridgeCamera.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">work</a> &gt; <a href="index.source.html" class="el_package">ua.lviv.iot.algo.part1.labs.models</a> &gt; <span class="el_source">FridgeCamera.java</span></div><h1>FridgeCamera.java</h1><pre class="source lang-java linenums">package ua.lviv.iot.algo.part1.labs.models;
+import lombok.*;
+
+@Getter
+public class FridgeCamera extends Fridge {
+<span class="nc" id="L6">    private final int numberOfEntries;</span>
+<span class="nc" id="L7">    private final String typeOfDriveType;</span>
+<span class="nc" id="L8">    private final int beltSpeed;</span>
+<span class="nc" id="L9">    private final int maxWeightOfSausage;</span>
+<span class="nc" id="L10">    private final int maxTapeSpeed;</span>
+<span class="nc" id="L11">    public int VOLUME_PER_KILOGRAM = 2;</span>
+    public FridgeCamera(String brand,String model, int capacityInLitres,
+                        boolean isDefrosting, String energyEfficiencyClass,
+                        int numberOfEntries, String typeOfDriveType, int beltSpeed,
+                        int maxWeightOfSausage, int maxTapeSpeed) {
+<span class="nc" id="L16">        super(brand, model, capacityInLitres, isDefrosting, energyEfficiencyClass);</span>
+<span class="nc" id="L17">        this.numberOfEntries = numberOfEntries;</span>
+<span class="nc" id="L18">        this.typeOfDriveType = typeOfDriveType;</span>
+<span class="nc" id="L19">        this.beltSpeed = beltSpeed;</span>
+<span class="nc" id="L20">        this.maxWeightOfSausage = maxWeightOfSausage;</span>
+<span class="nc" id="L21">        this.maxTapeSpeed = maxTapeSpeed;</span>
+
+<span class="nc" id="L23">    }</span>
+    @Override
+    public boolean turnOnDefrosting(boolean isDefrosting) {
+<span class="nc" id="L26">        return true;</span>
+    }
+    @Override
+    public boolean turnOffDefrosting(boolean isDefrosting) {
+<span class="nc" id="L30">        return false;</span>
+    }
+    @Override
+    public String deleteModelInfo(String model) {
+<span class="nc" id="L34">         return null;</span>
+    }
+
+    @Override
+    public int getMaxUsableCapacity(int capacityInLitres) {
+<span class="nc" id="L39">        return capacityInLitres * 10;</span>
+    }
+
+    @Override
+    public String getHeaders() {
+<span class="nc" id="L44">        return &quot;brand,model,capacityInLitres,isDefrosting,energyEfficiencyClass,&quot; +</span>
+                &quot;numberOfEntries,typeOfDriveType,beltSpeed,maxWeightOfSausage,maxTapeSpeed&quot;;
+    }
+
+    @Override
+    public String toCSV() {
+<span class="nc" id="L50">        return getBrand() + &quot;,&quot; + getModel() + &quot;,&quot; + getCapacityInLitres() + &quot;,&quot; +</span>
+<span class="nc" id="L51">                isDefrosting() + &quot;,&quot; + getEnergyEfficiencyClass() + &quot;,&quot; +</span>
+                numberOfEntries + &quot;,&quot; + typeOfDriveType + &quot;,&quot; + beltSpeed + &quot;,&quot; +
+                maxWeightOfSausage + &quot;,&quot; + maxWeightOfSausage;
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

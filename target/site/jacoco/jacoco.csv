@@ -1,4 +1,6 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-work,ua.lviv.iot.algo.part1.labs,FridgeCamera,3,51,0,0,0,17,1,10,1,10
-work,ua.lviv.iot.algo.part1.labs,Fridge,3,30,0,0,1,11,1,5,1,5
-work,ua.lviv.iot.algo.part1.labs,WineFridge,10,20,0,0,4,6,4,3,4,3
+work,ua.lviv.iot.algo.part1.labs.models,WineFridge,48,0,0,0,13,0,9,0,9,0
+work,ua.lviv.iot.algo.part1.labs.models,FridgeCamera,78,0,0,0,20,0,13,0,13,0
+work,ua.lviv.iot.algo.part1.labs.models,Fridge,142,0,4,0,29,0,9,0,7,0
+work,ua.lviv.iot.algo.part1.labs,FridgeManager,100,0,0,0,17,0,5,0,5,0
+work,ua.lviv.iot.algo.part1.labs.writers,FridgeWriter,112,0,4,0,21,0,5,0,3,0

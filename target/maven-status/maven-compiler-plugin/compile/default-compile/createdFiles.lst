@@ -1,3 +1,5 @@
-ua\lviv\iot\algo\part1\labs\FridgeCamera.class
-ua\lviv\iot\algo\part1\labs\WineFridge.class
-ua\lviv\iot\algo\part1\labs\Fridge.class
+ua\lviv\iot\algo\part1\labs\models\Fridge.class
+ua\lviv\iot\algo\part1\labs\models\FridgeCamera.class
+ua\lviv\iot\algo\part1\labs\FridgeManager.class
+ua\lviv\iot\algo\part1\labs\writers\FridgeWriter.class
+ua\lviv\iot\algo\part1\labs\models\WineFridge.class
