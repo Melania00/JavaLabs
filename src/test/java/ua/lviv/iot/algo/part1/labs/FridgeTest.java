@@ -1,8 +1,7 @@
 package ua.lviv.iot.algo.part1.labs;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import ua.lviv.iot.algo.part1.labs.models.WineFridge;
 
 class FridgeTest {
     @Test
